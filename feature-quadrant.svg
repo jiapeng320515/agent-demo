@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 660" font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+  <!-- 背景：固定浅色，保证深色/浅色主题下都清晰 -->
+  <rect width="920" height="660" fill="#ffffff" rx="14"/>
+
+  <!-- 标题 -->
+  <text x="460" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#1f2328">读书 Agent 能力优先级矩阵</text>
+
+  <!-- 坐标轴方向标签 -->
+  <text x="460" y="74" text-anchor="middle" font-size="13" fill="#57606a">▲ 重要程度：高</text>
+  <text x="460" y="612" text-anchor="middle" font-size="13" fill="#57606a">▼ 重要程度：低</text>
+  <text x="40" y="330" text-anchor="middle" font-size="13" fill="#57606a" transform="rotate(-90 40 330)">实现难度：低</text>
+  <text x="896" y="330" text-anchor="middle" font-size="13" fill="#57606a" transform="rotate(90 896 330)">实现难度：高</text>
+
+  <!-- ① 优先做（左上：高价值 × 低难度） -->
+  <rect x="70" y="85" width="390" height="245" fill="#E8F5E9" stroke="#43A047" stroke-width="2" rx="10"/>
+  <rect x="88" y="103" width="14" height="14" fill="#43A047" rx="3"/>
+  <text x="110" y="115" font-size="17" font-weight="700" fill="#1B5E20">① 优先做（Quick Wins）</text>
+  <text x="110" y="136" font-size="12" fill="#2E7D32">高价值 · 低难度</text>
+  <text x="92" y="168" font-size="14" fill="#24292F">• 问答</text>
+  <text x="92" y="194" font-size="14" fill="#24292F">• 摘要 / 提炼</text>
+  <text x="92" y="220" font-size="14" fill="#24292F">• 笔记 / 知识卡片</text>
+  <text x="92" y="246" font-size="14" fill="#24292F">• 术语表 / 概念词典</text>
+  <text x="92" y="272" font-size="14" fill="#24292F">• 应用 / 行动清单</text>
+
+  <!-- ② 战略投入（右上：高价值 × 高难度） -->
+  <rect x="460" y="85" width="390" height="245" fill="#E3F2FD" stroke="#1E88E5" stroke-width="2" rx="10"/>
+  <rect x="478" y="103" width="14" height="14" fill="#1E88E5" rx="3"/>
+  <text x="500" y="115" font-size="17" font-weight="700" fill="#0D47A1">② 战略投入</text>
+  <text x="500" y="136" font-size="12" fill="#1565C0">高价值 · 高难度</text>
+  <text x="482" y="168" font-size="14" fill="#24292F">• 间隔复习（遗忘曲线）</text>
+  <text x="482" y="194" font-size="14" fill="#24292F">• 知识自测（主动回忆）</text>
+
+  <!-- ③ 顺手做（左下：低价值 × 低难度） -->
+  <rect x="70" y="330" width="390" height="245" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="2" rx="10"/>
+  <rect x="88" y="348" width="14" height="14" fill="#9E9E9E" rx="3"/>
+  <text x="110" y="360" font-size="17" font-weight="700" fill="#424242">③ 顺手做</text>
+  <text x="110" y="381" font-size="12" fill="#616161">低价值 · 低难度</text>
+  <text x="92" y="413" font-size="14" fill="#24292F">• 读前导览 / 速读</text>
+  <text x="92" y="439" font-size="14" fill="#24292F">• 章节导航 / 目录导读</text>
+  <text x="92" y="465" font-size="14" fill="#24292F">• 金句 / 案例提取</text>
+  <text x="92" y="491" font-size="14" fill="#24292F">• 定期回顾（周 / 月总结）</text>
+
+  <!-- ④ 谨慎 / 最后做（右下：低价值 × 高难度） -->
+  <rect x="460" y="330" width="390" height="245" fill="#FFF3E0" stroke="#FB8C00" stroke-width="2" rx="10"/>
+  <rect x="478" y="348" width="14" height="14" fill="#FB8C00" rx="3"/>
+  <text x="500" y="360" font-size="17" font-weight="700" fill="#BF360C">④ 谨慎 / 最后做</text>
+  <text x="500" y="381" font-size="12" fill="#E65100">低价值 · 高难度</text>
+  <text x="482" y="413" font-size="14" fill="#24292F">• 批判性审读</text>
+  <text x="482" y="439" font-size="14" fill="#24292F">• 关联思考</text>
+  <text x="482" y="465" font-size="14" fill="#24292F">• 2D / 3D 知识树</text>
+  <text x="482" y="491" font-size="14" fill="#24292F">• 对比阅读</text>
+  <text x="482" y="517" font-size="14" fill="#24292F">• 动态短视频</text>
+</svg>

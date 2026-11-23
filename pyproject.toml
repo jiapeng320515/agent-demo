@@ -1,0 +1,25 @@
+[project]
+name = "agent-demo"
+version = "0.1.0"
+description = "读书 agent：基于 RAG（检索增强生成）的书本问答，零第三方依赖"
+authors = [{ name = "Lucy" }]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+# 阶段二 / 三的可选依赖，与 requirements-optional.txt 保持一致。
+# 安装方式：uv sync --extra rag
+rag = [
+    "numpy>=1.26,<3",
+    "sentence-transformers>=2.7",
+    "faiss-cpu>=1.8",
+    "pymupdf>=1.24",
+    "ebooklib>=0.18",
+]
+dev = [
+    "ruff>=0.6",   # 代码规范 / 格式化（对应 CODE_STANDARDS.md）
+    "pytest>=8",   # 测试（对应 CODE_STANDARDS.md 的测试约定）
+]
+
+[project.scripts]
+reader = "agent.reader_main:main"
